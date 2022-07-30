@@ -17,7 +17,7 @@ const Main = () => {
   const getWeatherDataFromApi = async () => {
     let apiKey = process.env.REACT_APP_API_KEY;
     let units = "metric";
-    let lang = "tr";
+    let lang = "en";
     let url = `https://api.openweathermap.org/data/2.5/weather?q=${searchText}&appid=${apiKey}&units=${units}&lang=${lang}`;
     try {
       const response = await axios.get(url);
