@@ -44,7 +44,7 @@ const Main = () => {
       }, 5000);
     }
   };
-  console.log(data);
+  // console.log(data);
   return (
     <section className="main">
       <form onSubmit={handleSubmit}>
