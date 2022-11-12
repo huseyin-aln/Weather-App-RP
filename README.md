@@ -1,7 +1,3 @@
-# Weather-App-RP
-
-https://weatherapp-rp.netlify.app/
-
 
 <h1 align="center">Weather Condition App</h1>
 
